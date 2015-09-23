@@ -23,6 +23,7 @@ example.iml
 .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_23.xml
 .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
 .idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml
+/target
 .idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml
 .idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml
 .idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml
