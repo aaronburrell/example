@@ -1,3 +1,12 @@
 language: java
 jdk:
-  - oraclejdk8
+- oraclejdk8
+deploy:
+  provider: openshift
+  user: aaronburrell@gmail.com
+  password:
+    secure: OF+YFGo8loZZCCZYfVvLuY2gZRBe0oH3yhIg7XiK1qV6h+wZaEYH71qiycpo4f1dmh8eyRUHDKYNURqfLJ1HHkwjA/WDgvGGU4xPNfJVq0VZA3JDEOviORPt0qxGAvHRoVq5b/keErnDxv+7Tais5zrEASSdFwP1nOGyGtX/Ii7Q3cKk6UYY8LlcVK4f9iSm8UYa7mZWIODtZBWrwLy7SR7WzIIGnLZyT5MbYbEBG8GEO84ZMfxAqJgS8c2bGWF+B1if2mex/OSj9LAB7hmg9zNk2cVxP7V9So6LEGgeaTr8T8bqX10A4/dKCSLMOZSziVjsnESgG2xrL2tpjZmRGmYDXFM8yt0j9Yc1qp9yIMdE7nrBkH0tQcvAk/ZgxixwykVPsXef1Jtl2kiMrIA4uDhE+EMJcusi6w/UnJHnQqusZw49mFRUV8nlgsx0QifdsdRkwTNqkDbrOTMut/QVCVmtNx4b7PPmVOeg6eLrWooOeWBJjkaSwSpGkYtepLbBpqZFQGBLGcD+iy2b6u8lHC+U7r1I0ZwD9a9SFepYWBqUwh2znANRPadLRaRj18pnNhIrcUm8Yomyi8+BkrbRgUdpU7ikbmzme4Z4Bmz83axAesum92Q5oXdZzvegU0SRe1nZKuj+koI0aDrq5h4oL+vMaV/iuufIfPno8rSz4V8=
+  app: example
+  domain: ''
+  on:
+    repo: aaronburrell/example
